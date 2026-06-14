@@ -2,6 +2,8 @@
 
 This repository was created to demonstrate a regression in behaviour when rendering GeoJSON layers in MapLibre, between version 5 and version 6.
 
+You will see that v5 renders the GeoJSON point (a red circle in New York City), whilst v6 does not render anything.
+
 To see the regression simply run `npm install` then `npm run dev` to run the development server. The latest version 6 preview of MapLibre is installed by default.
 
 In `src/main.js` you can flick between v5 and v6:
